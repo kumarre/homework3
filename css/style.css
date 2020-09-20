@@ -14,7 +14,7 @@ body{
   margin: 1.2em;
   font-family: Andika, sans-serif;
 
-  background-color:  #DDDDDD;
+  background:  #DDDDDD;
   background-image: url("../images/pigeon-background.JPEG");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -60,7 +60,7 @@ table{
   color: #FFFFFF;
   text-align: center;
   text-transform: uppercase;
-  background-color: #7e0820;
+  background: #7e0820;
   vertical-align: middle;
 }
 
@@ -106,15 +106,15 @@ tbody tr:last-child td:last-child {
 }
 
 tbody tr:nth-child(2n+1) {
-  background-color: #D1D1D1;
+  background: #D1D1D1;
 }
 
 tbody tr:nth-child(2n) {
-  background-color: transparent;
+  background: transparent;
 }
 
 tbody tr:hover {
-  background-color: rgb(126,8,48,.25);
+  background: rgb(126,8,48,.25);
 }
 
 footer{
@@ -125,5 +125,6 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
 
