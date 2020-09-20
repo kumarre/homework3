@@ -81,10 +81,6 @@ td{
   vertical-align: middle;
 }
 
-tr{
-  background-color: transparent;
-}
-
 *:focus {
   border-style: dashed;
   border-width: 3px;
@@ -112,6 +108,11 @@ tbody tr:last-child td:last-child {
 tbody tr:nth-child(2n+1) {
   background-color: #D1D1D1;
 }
+
+tbody tr:nth-child(2n) {
+  background-color: transparent;
+}
+
 tbody tr:hover {
   background-color: rgb(126,8,48,.25);
 }
@@ -122,6 +123,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: relative;
+  position: fixed;
+  bottom: 0;
 }
 
